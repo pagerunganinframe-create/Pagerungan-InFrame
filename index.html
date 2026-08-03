@@ -1,85 +1,154 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pagerungan InFrame</title>
-
-<style>
-body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#0d1b2a;
-color:white;
-text-align:center;
-}
-
-header{
-padding:80px 20px;
-background:linear-gradient(to bottom,#0077b6,#001219);
-}
-
-h1{
-font-size:48px;
-margin:0;
-}
-
-p{
-font-size:20px;
-}
-
-section{
-padding:50px 20px;
-}
-
-.card{
-background:#16324f;
-padding:20px;
-margin:20px auto;
-max-width:800px;
-border-radius:15px;
-}
-
-footer{
-background:#001219;
-padding:20px;
-}
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagerungan InFrame | Official Website</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d1b2a;
+            color: #ffffff;
+            text-align: center;
+            line-height: 1.6;
+        }
+        header {
+            padding: 70px 20px 50px;
+            background: linear-gradient(180deg, #0077b6 0%, #0d1b2a 100%);
+        }
+        h1 {
+            font-size: 38px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: #e0e1dd;
+            font-weight: 300;
+        }
+        section {
+            padding: 20px 15px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .card {
+            background-color: #1b263b;
+            padding: 25px 20px;
+            margin-bottom: 25px;
+            border-radius: 16px;
+            border: 1px solid #415a77;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+        }
+        h2 {
+            font-size: 22px;
+            color: #48cae4;
+            margin-bottom: 12px;
+        }
+        p {
+            font-size: 15px;
+            color: #e0e1dd;
+        }
+        .img-preview {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-top: 15px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+            border: 1px solid #415a77;
+        }
+        /* Tombol Kontak & Medsos */
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-top: 15px;
+        }
+        .btn {
+            display: block;
+            padding: 12px 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+        .btn-wa {
+            background-color: #25d366;
+            color: #ffffff;
+        }
+        .btn-ig {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+            color: #ffffff;
+        }
+        .btn-yt {
+            background-color: #ff0000;
+            color: #ffffff;
+        }
+        footer {
+            background-color: #000814;
+            padding: 25px 20px;
+            font-size: 13px;
+            color: #778da9;
+            margin-top: 30px;
+        }
+    </style>
 </head>
-
 <body>
 
-<header>
-<h1>Pagerungan InFrame</h1>
-<p>Satu Lensa, Ribuan Cerita dari Pulau Pagerungan</p>
-</header>
+    <header>
+        <h1>Pagerungan InFrame</h1>
+        <p class="subtitle">Satu Lensa, Ribuan Cerita dari Pulau Pagerungan</p>
+    </header>
 
-<section>
-<div class="card">
-<h2>Tentang</h2>
-<p>Pagerungan InFrame merupakan media digital yang mendokumentasikan keindahan alam, budaya, dan kehidupan masyarakat Pulau Pagerungan Besar.</p>
-</div>
+    <section>
+        <!-- TENTANG -->
+        <div class="card">
+            <h2>Tentang Kami</h2>
+            <p>Pagerungan InFrame adalah media digital independen yang berfokus mendokumentasikan keindahan alam, pesona bahari, ragam budaya, dan aktivitas kehidupan masyarakat di Pulau Pagerungan Besar.</p>
+        </div>
 
-<div class="card">
-<h2>Destinasi Wisata</h2>
-<p>Pantai Belakang Pulau • Togo-Togo • Pantai Pasir Putih • Sunrise & Sunset</p>
-</div>
+        <!-- DESTINASI -->
+        <div class="card">
+            <h2>Eksplorasi & Visual</h2>
+            <p>Pantai Belakang Pulau • Togo-Togo • Pantai Pasir Putih • Kehidupan Maritime • Sunset & Sunrise Sinematik</p>
+        </div>
 
-<div class="card">
-<h2>Galeri</h2>
-<p>Foto dan video sinematik akan segera hadir.</p>
-</div>
+        <!-- GALERI FOTO -->
+        <div class="card">
+            <h2>Galeri Karya</h2>
+            <p>Dokumentasi foto dan visual sinematik lapangan kami:</p>
+            <!-- Foto Kamera.png yang sudah kamu simpan -->
+            <img src="Kamera.png" alt="Kamera Pagerungan InFrame" class="img-preview">
+        </div>
 
-<div class="card">
-<h2>Berita</h2>
-<p>Liputan terbaru tentang Pulau Pagerungan.</p>
-</div>
-</section>
+        <!-- HUBUNGI KAMI / SOSMED -->
+        <div class="card">
+            <h2>Hubungi & Ikuti Kami</h2>
+            <p>Tertarik kerja sama liputan, dokumentasi acara, atau ingin menyapa? Klik tombol di bawah ini:</p>
+            
+            <div class="btn-container">
+                <!-- Ganti nomor WhatsApp di bawah ini dengan nomor kamu (awali angka 62) -->
+                <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-wa">💬 Chat via WhatsApp</a>
+                
+                <!-- Ganti username Instagram kamu -->
+                <a href="https://instagram.com/" target="_blank" class="btn btn-ig">📸 Follow Instagram</a>
+                
+                <!-- Ganti link channel YouTube kamu -->
+                <a href="https://youtube.com/" target="_blank" class="btn btn-yt">▶️ Nonton di YouTube</a>
+            </div>
+        </div>
+    </section>
 
-<footer>
-© 2026 Pagerungan InFrame
-</footer>
+    <footer>
+        <p>&copy; 2026 Pagerungan InFrame. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
