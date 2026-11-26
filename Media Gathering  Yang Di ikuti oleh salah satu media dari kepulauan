@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Gathering Bukan Pembungkaman, Media Kepulauan Berhak Mendapatkan Ruang</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.75;
+      color: #1f2937;
+      background-color: #f9fafb;
+      margin: 0;
+      padding: 20px;
+    }
+    .news-container {
+      max-width: 780px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 32px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+    .category-badge {
+      display: inline-block;
+      background-color: #1e3a8a;
+      color: #ffffff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 1.85rem;
+      line-height: 1.3;
+      color: #111827;
+      margin: 0 0 12px 0;
+    }
+    .article-meta {
+      font-size: 0.875rem;
+      color: #6b7280;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .featured-image {
+      margin: 0 0 24px 0;
+    }
+    .featured-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      display: block;
+    }
+    .featured-image figcaption {
+      font-size: 0.85rem;
+      color: #6b7280;
+      margin-top: 8px;
+      font-style: italic;
+    }
+    .article-body p {
+      margin-bottom: 18px;
+      font-size: 1.05rem;
+    }
+    blockquote {
+      margin: 24px 0;
+      padding: 16px 20px;
+      background-color: #f3f4f6;
+      border-left: 4px solid #1e3a8a;
+      font-style: italic;
+      font-weight: 500;
+      color: #111827;
+    }
+    @media (max-width: 600px) {
+      .news-container {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 1.45rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <article class="news-container">
+    <header>
+      <span class="category-badge">OPINI</span>
+      <h1>Media Gathering Bukan Pembungkaman, Media Kepulauan Berhak Mendapatkan Ruang</h1>
+      <div class="article-meta">
+        <span>Redaksi Pagerungan InFrame</span> &bull; 
+        <time datetime="2026-11-26">26 November 2026</time>
+      </div>
+    </header>
+
+    <figure class="featured-image">
+      <img src="images/media-gathering-jogja.jpg" alt="Kegiatan Media Gathering SKK Migas dan Kangean Energy Indonesia di Yogyakarta">
+      <figcaption>
+        Suasana kegiatan Media Gathering SKK Migas dan Kangean Energy Indonesia (KEI) bersama insan media kepulauan di Yogyakarta. (Foto: Dok. Pribadi)
+      </figcaption>
+    </figure>
+
+    <div class="article-body">
+      <p><strong>PAGERUNGAN</strong> — Tudingan bahwa kegiatan <em>Media Gathering</em> SKK Migas dan Kangean Energy Indonesia (KEI) di Yogyakarta merupakan bentuk pembungkaman media adalah penilaian yang terlalu jauh.</p>
+
+      <p>Bagi kami, kegiatan ini merupakan ruang silaturahmi, komunikasi, dan peningkatan kapasitas insan media, khususnya media yang tumbuh dan berkembang dari wilayah kepulauan.</p>
+
+      <p>Jangan setiap ruang kebersamaan dengan perusahaan langsung dicurigai sebagai upaya membungkam pers. Media kepulauan juga berhak mendapatkan kesempatan untuk belajar, berkembang, dan membangun komunikasi dengan berbagai pihak.</p>
+
+      <blockquote>
+        "Kehadiran kami bukan berarti kehilangan independensi, apalagi menjual kebebasan pers."
+      </blockquote>
+
+      <p>Kami memahami sepenuhnya bahwa kebebasan pers harus dijaga. Namun, kebebasan pers bukan alasan untuk menghakimi sesama insan media yang memilih hadir dalam ruang komunikasi dan silaturahmi.</p>
+
+      <p>Kami berdiri tegak untuk menjaga independensi, tetapi kami juga berhak mendapatkan ruang untuk bertumbuh.</p>
+
+      <p>Jangan bungkam media kepulauan dengan prasangka. Berikan kami ruang, dan biarkan kami tetap bekerja dengan integritas.</p>
+    </div>
+  </article>
+
+</body>
+</html>
